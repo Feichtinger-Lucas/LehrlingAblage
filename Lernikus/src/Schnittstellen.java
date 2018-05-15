@@ -92,16 +92,16 @@ public class Schnittstellen {
 	public static int test(int j, int antwort) {
 
 		int t;
-		t=Abfrage.pruefen(j, antwort);
-		
-		if(t==0){
+		t = Abfrage.pruefen(j, antwort);
+
+		if (t == 0) {
 			System.out.println("gleich");
-		}else if(t==2){
+		} else if (t == 2) {
 			System.out.println("zu hoch");
-		}else if(t==1){
+		} else if (t == 1) {
 			System.out.println("zu niedrig");
 		}
-		
+
 		return 0;
 	}
 

@@ -3,13 +3,14 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		int i = 0;
-		int j = 3;
-		int antwort = 2;
+		int note = 5;
+		int TON_FUNKTION = 0;
+		int TON_AREN = 2;
 
-		j = Schnittstellen.noten(i);
-		System.out.println(j);
-		Schnittstellen.test(j, antwort);
+		TON_FUNKTION = Schnittstellen.noten(note);
+		Schnittstellen.test(TON_FUNKTION, TON_AREN);
+		Level.Algo(3);
+		Level.Tuto();
 
 	}
 
