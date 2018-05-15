@@ -4,6 +4,8 @@ import javax.sound.sampled.AudioSystem;
 import javax.sound.sampled.Clip;
 
 public class Audio {
+	
+	// Ausgabe von Ton
 
 	public static void PlaySound(File Sound) {
 
@@ -20,3 +22,4 @@ public class Audio {
 	}
 
 }
+

@@ -1,6 +1,30 @@
 import java.io.File;
 
 public class Schnittstellen {
+	
+	//Einzele Noten ausgeben anhand von zahlen
+	
+/*
+Höher ist größere Zahl
+
+A		1
+a_		2
+C		3
+c'		4
+c_		5
+D		6
+d_		7
+E		8
+e_		9
+F		10
+f_		11
+G		12
+g_		13
+H		14
+h_		15
+
+
+*/
 
 	public static int noten(int i) {
 
@@ -89,6 +113,8 @@ public class Schnittstellen {
 
 	}
 
+	// Ausgabe des Vergleichs von 2 Noten (1 System/2 Benutzer)
+	
 	public static int test(int j, int antwort) {
 
 		int t;

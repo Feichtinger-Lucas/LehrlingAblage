@@ -1,4 +1,6 @@
 public class Level {
+	
+	//Lavel Aufbau Parameter=wie vile Noten. Schwiereigkeit von Lvl wird noch hinzugefügt
 
 	public static void Algo(int o) {
 
@@ -80,6 +82,8 @@ public class Level {
 		}
 
 	}
+	
+	// Ausgabe aller für das Lvl Notwendiger Noten zum lernen.
 
 	public static void Tuto() {
 
