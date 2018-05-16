@@ -130,5 +130,25 @@ h_		15
 
 		return 0;
 	}
+	
+	public static int hinter() throws InterruptedException{
+
+
+			System.out.println("start");
+			File A = new File("hinter.WAV");
+			Audio.PlaySound2(A,1);
+			return 1;
+		
+	}
+	
+	public static int wart() throws InterruptedException {
+
+
+		System.out.println("stop");
+		File A = new File("hinter.WAV");
+		Audio.PlaySound2(A,5000); // 2Parameter = länge nur Hintergrundmusik in millisek.
+		return 1;
+	
+}
 
 }

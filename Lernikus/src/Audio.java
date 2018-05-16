@@ -20,6 +20,24 @@ public class Audio {
 		}
 
 	}
+	
+	public static void PlaySound2(File Sound, int i) throws InterruptedException {
+
+		
+		if(i==1){
+		try {
+			Clip clip = AudioSystem.getClip();
+			clip.open(AudioSystem.getAudioInputStream(Sound));
+			clip.start();
+
+		} catch (Exception e) {
+		}}else{
+			Thread.sleep(i);
+		}
+
+	}
+	
+
 
 }
 

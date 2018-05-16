@@ -1,6 +1,6 @@
 public class Level {
 	
-	//Lavel Aufbau Parameter=wie vile Noten. Schwiereigkeit von Lvl wird noch hinzugefügt
+	//Lavel Aufbau Parameter=wie viele Noten. Schwiereigkeit von Lvl wird noch hinzugefügt
 
 	public static void Algo(int o) {
 
@@ -9,7 +9,6 @@ public class Level {
 		for (i = 1; i <= o; i++) {
 
 			k = (int) ((Math.random()) * 14 + 1);
-			System.out.println("__________________________");
 			System.out.println(k);
 			System.out.println(i);
 
@@ -89,7 +88,7 @@ public class Level {
 
 		int i = 1;
 
-		System.out.println("_____________________________\n" + i);
+
 
 		switch (i) {
 		case 1:
